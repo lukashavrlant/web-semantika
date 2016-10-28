@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-  <title>Sémantika - Úprava textu</title>
-  <meta name="description" content="Použití kontroverzní značky font a další úpravy textu">
+  <meta charset="utf">
+  <title>SĂ©mantika - Ăšprava textu</title>
+  <meta name="description" content="PouĹľitĂ­ kontroverznĂ­ znaÄŤky font a dalĹˇĂ­ Ăşpravy textu">
   <link rel="home" href="index.html/">
   <link rel="stylesheet" href="styly.css">
   <link rel="prev" href="zvyrazneni-textu.html">
@@ -11,37 +11,37 @@
   <link rel="next" href="seznamy.html">
   </head>
   <body>
-<h1><a href="index.html" id="nadpis">Sémantika <br> pravý význam html značek</a></h1>
+<h1><a href="index.html" id="nadpis">SĂ©mantika <br> pravĂ˝ vĂ˝znam html znaÄŤek</a></h1>
 
 
-<p id="drobky"><a href="index.html">Hlavní strana</a> &raquo; <a href="navody.html">Návody</a> &raquo; Úprava textu</p>
+<p id="drobky"><a href="index.html">HlavnĂ­ strana</a> &raquo; <a href="navody.html">NĂˇvody</a> &raquo; Ăšprava textu</p>
 
-<h2 id="obsah">Úprava textu</h2>
-<h3 id="font">Použití značky <code>&lt;font&gt;</code></h3>
-<p>V minulosti se prakticky všechny úpravy textu řešily přes tuto problematickou značku. S nástupem kaskádových stylů se ovšem situace razantně změnila a nyní se naprostá většina úprav textu řeší přávě přes kaskádové styly. A je to dobře. Použití značky <code>&lt;font&gt;</code> společně s <a href="http://www.jakpsatweb.cz/html/text.html#font">jejími atributy</a> má za následek jednak nepřehlednost kódu (alespoň podle mého skromného názoru), ale hlavně menší sémantičnost kódu. Definice řezu písma se týká výhradně vzhledu, nikoliv smyslu, tudíž deklarace písma nemá v <abbr title="HyperText markup language - Hypertextový značkovací jazyk">HTML</abbr> co dělat. Stejně tak definice velikosti. Pokud chceme písmo udělat méně výraznější, je za současných podmínek nejlepší použít značku <code>&lt;small&gt;</code>, pokud naopak výraznější, nejvhodnější řešení je <code>&lt;strong&gt;</code> (případně použít nadpis, pokud se o nadpis jedná). Změna barvy je vlastně totéž. Pokud chcete text obarvit, aby byl výraznější, použijte (a přestylujte) značku <code>&lt;strong&gt;</code>. Jinak kaskádové styly.</p>
-<p>Přesto ale existuje sémantické využití značky <code>&lt;font&gt;</code>. Představte si, že máte určitou část textu, kde chcete změnit řez písma a protože tento řez bývá obvykle menšího vzrůstu, tak ho taky trochu zvětšit. Jak byste to řešili? Předpokládám, že byste použili značku <code>&lt;span&gt;</code>, kterou byste nastylovali. Proč ale nepoužít značku <code>&lt;font&gt;</code>, která je primárně určená k tomu, aby měnila vzhled písma, ale nezapsat změnu písma přes atributy, ale nastylovat tuto značku stejně jako ten <code>&lt;span&gt;</code>? To znamená něco v tomto smyslu:</p>
+<h2 id="obsah">Ăšprava textu</h2>
+<h3 id="font">PouĹľitĂ­ znaÄŤky <code>&lt;font&gt;</code></h3>
+<p>V minulosti se prakticky vĹˇechny Ăşpravy textu Ĺ™eĹˇily pĹ™es tuto problematickou znaÄŤku. S nĂˇstupem kaskĂˇdovĂ˝ch stylĹŻ se ovĹˇem situace razantnÄ› zmÄ›nila a nynĂ­ se naprostĂˇ vÄ›tĹˇina Ăşprav textu Ĺ™eĹˇĂ­ pĹ™ĂˇvÄ› pĹ™es kaskĂˇdovĂ© styly. A je to dobĹ™e. PouĹľitĂ­ znaÄŤky <code>&lt;font&gt;</code> spoleÄŤnÄ› s <a href="http://www.jakpsatweb.cz/html/text.html#font">jejĂ­mi atributy</a> mĂˇ za nĂˇsledek jednak nepĹ™ehlednost kĂłdu (alespoĹ podle mĂ©ho skromnĂ©ho nĂˇzoru), ale hlavnÄ› menĹˇĂ­ sĂ©mantiÄŤnost kĂłdu. Definice Ĺ™ezu pĂ­sma se tĂ˝kĂˇ vĂ˝hradnÄ› vzhledu, nikoliv smyslu, tudĂ­Ĺľ deklarace pĂ­sma nemĂˇ v <abbr title="HyperText markup language - HypertextovĂ˝ znaÄŤkovacĂ­ jazyk">HTML</abbr> co dÄ›lat. StejnÄ› tak definice velikosti. Pokud chceme pĂ­smo udÄ›lat mĂ©nÄ› vĂ˝raznÄ›jĹˇĂ­, je za souÄŤasnĂ˝ch podmĂ­nek nejlepĹˇĂ­ pouĹľĂ­t znaÄŤku <code>&lt;small&gt;</code>, pokud naopak vĂ˝raznÄ›jĹˇĂ­, nejvhodnÄ›jĹˇĂ­ Ĺ™eĹˇenĂ­ je <code>&lt;strong&gt;</code> (pĹ™Ă­padnÄ› pouĹľĂ­t nadpis, pokud se o nadpis jednĂˇ). ZmÄ›na barvy je vlastnÄ› totĂ©Ĺľ. Pokud chcete text obarvit, aby byl vĂ˝raznÄ›jĹˇĂ­, pouĹľijte (a pĹ™estylujte) znaÄŤku <code>&lt;strong&gt;</code>. Jinak kaskĂˇdovĂ© styly.</p>
+<p>PĹ™esto ale existuje sĂ©mantickĂ© vyuĹľitĂ­ znaÄŤky <code>&lt;font&gt;</code>. PĹ™edstavte si, Ĺľe mĂˇte urÄŤitou ÄŤĂˇst textu, kde chcete zmÄ›nit Ĺ™ez pĂ­sma a protoĹľe tento Ĺ™ez bĂ˝vĂˇ obvykle menĹˇĂ­ho vzrĹŻstu, tak ho taky trochu zvÄ›tĹˇit. Jak byste to Ĺ™eĹˇili? PĹ™edpoklĂˇdĂˇm, Ĺľe byste pouĹľili znaÄŤku <code>&lt;span&gt;</code>, kterou byste nastylovali. ProÄŤ ale nepouĹľĂ­t znaÄŤku <code>&lt;font&gt;</code>, kterĂˇ je primĂˇrnÄ› urÄŤenĂˇ k tomu, aby mÄ›nila vzhled pĂ­sma, ale nezapsat zmÄ›nu pĂ­sma pĹ™es atributy, ale nastylovat tuto znaÄŤku stejnÄ› jako ten <code>&lt;span&gt;</code>? To znamenĂˇ nÄ›co v tomto smyslu:</p>
 <pre><code>&lt;font style="<font class="text">font-family: Tahoma, sans-serif; size:1.2em</font>"&gt;
-  <font class="text">Nějaký ten zvětšený text s jiným řezem písma.</font>
+  <font class="text">NÄ›jakĂ˝ ten zvÄ›tĹˇenĂ˝ text s jinĂ˝m Ĺ™ezem pĂ­sma.</font>
 &lt;/font&gt;
 </code></pre>
-<p>Tento zápis zdá se mi naprosto v pořádku, sám jej používám na obarvování kódu, ať je přehlednější. Značka <code>&lt;font&gt;</code> je v tomto případě pouze sémantičtějším synonymem pro značku <code>&lt;span&gt;</code>, protože bez atributů taktéž nic nedělá a tudíž nic nezkazí. S vypnutými styly se text zobrazí normálně, neformátovaný.</p>
+<p>Tento zĂˇpis zdĂˇ se mi naprosto v poĹ™Ăˇdku, sĂˇm jej pouĹľĂ­vĂˇm na obarvovĂˇnĂ­ kĂłdu, aĹĄ je pĹ™ehlednÄ›jĹˇĂ­. ZnaÄŤka <code>&lt;font&gt;</code> je v tomto pĹ™Ă­padÄ› pouze sĂ©mantiÄŤtÄ›jĹˇĂ­m synonymem pro znaÄŤku <code>&lt;span&gt;</code>, protoĹľe bez atributĹŻ taktĂ©Ĺľ nic nedÄ›lĂˇ a tudĂ­Ĺľ nic nezkazĂ­. S vypnutĂ˝mi styly se text zobrazĂ­ normĂˇlnÄ›, neformĂˇtovanĂ˝.</p>
 
-<h3 id="blikajici">Blikající písma a podobné naschvály</h3>
-<p><abbr title="HyperText markup language - Hypertextový značkovací jazyk">HTML</abbr> zná i několik značek, které obvykle způsobí víc škody než užitku, ale i o takových se musím zmínit. Jedná se tedy hlavně o <code>&lt;blink&gt;</code> a <code>&lt;marquee&gt;</code>. První značka má za úkol rozblikat daný text a druhá rozpohybovat, obvykle zprava do leva (<a href="http://www.jakpsatweb.cz/html/rozsireni.html#marquee">dá se změnit</a>). Obecně považuji za nesmysl používat tyto značky, ale občas se najde nějaká světlá výjimka, kde to vypadá hezky. Tak jako tak do sémantického kódu dané značky nepatří. Pokud chcete blikající text, použijte kaskádové styly, pokud chcete běžící text, tak asi jedině Javascript nebo si počkat na <abbr title="Cascading Style Sheets - Kaskádové styly">CSS3</abbr>.</p> 
-<p>Ještě bych se rád zmínil o značkách jako <code>&lt;s&gt;</code> a <code>&lt;strike&gt;</code>, které přeškrtávají určený text. Opět se jedná o nesémantické značky, které slouží pouze k určení vzhledu, neurčují žádný smysl. Takže pokud budete chtít přeškrtnout text, opět přes kaskádové styly. Jediný případ, kdy se používá přeškrtnutý text je, pokud z webu mažete nějaký text a chcete, aby o tom uživatel věděl - tehdy se ovšem používá značka <code>&lt;del&gt;</code>.</p>
+<h3 id="blikajici">BlikajĂ­cĂ­ pĂ­sma a podobnĂ© naschvĂˇly</h3>
+<p><abbr title="HyperText markup language - HypertextovĂ˝ znaÄŤkovacĂ­ jazyk">HTML</abbr> znĂˇ i nÄ›kolik znaÄŤek, kterĂ© obvykle zpĹŻsobĂ­ vĂ­c Ĺˇkody neĹľ uĹľitku, ale i o takovĂ˝ch se musĂ­m zmĂ­nit. JednĂˇ se tedy hlavnÄ› o <code>&lt;blink&gt;</code> a <code>&lt;marquee&gt;</code>. PrvnĂ­ znaÄŤka mĂˇ za Ăşkol rozblikat danĂ˝ text a druhĂˇ rozpohybovat, obvykle zprava do leva (<a href="http://www.jakpsatweb.cz/html/rozsireni.html#marquee">dĂˇ se zmÄ›nit</a>). ObecnÄ› povaĹľuji za nesmysl pouĹľĂ­vat tyto znaÄŤky, ale obÄŤas se najde nÄ›jakĂˇ svÄ›tlĂˇ vĂ˝jimka, kde to vypadĂˇ hezky. Tak jako tak do sĂ©mantickĂ©ho kĂłdu danĂ© znaÄŤky nepatĹ™Ă­. Pokud chcete blikajĂ­cĂ­ text, pouĹľijte kaskĂˇdovĂ© styly, pokud chcete bÄ›ĹľĂ­cĂ­ text, tak asi jedinÄ› Javascript nebo si poÄŤkat na <abbr title="Cascading Style Sheets - KaskĂˇdovĂ© styly">CSS3</abbr>.</p> 
+<p>JeĹˇtÄ› bych se rĂˇd zmĂ­nil o znaÄŤkĂˇch jako <code>&lt;s&gt;</code> a <code>&lt;strike&gt;</code>, kterĂ© pĹ™eĹˇkrtĂˇvajĂ­ urÄŤenĂ˝ text. OpÄ›t se jednĂˇ o nesĂ©mantickĂ© znaÄŤky, kterĂ© slouĹľĂ­ pouze k urÄŤenĂ­ vzhledu, neurÄŤujĂ­ ĹľĂˇdnĂ˝ smysl. TakĹľe pokud budete chtĂ­t pĹ™eĹˇkrtnout text, opÄ›t pĹ™es kaskĂˇdovĂ© styly. JedinĂ˝ pĹ™Ă­pad, kdy se pouĹľĂ­vĂˇ pĹ™eĹˇkrtnutĂ˝ text je, pokud z webu maĹľete nÄ›jakĂ˝ text a chcete, aby o tom uĹľivatel vÄ›dÄ›l - tehdy se ovĹˇem pouĹľĂ­vĂˇ znaÄŤka <code>&lt;del&gt;</code>.</p>
 
 
 <menu id="hlavni-menu">
-<li><a href="index.html">Hlavní strana</a></li>
-<li><a href="navody.html">Návody</a></li>
+<li><a href="index.html">HlavnĂ­ strana</a></li>
+<li><a href="navody.html">NĂˇvody</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="odkazy-zdroje.html">Odkazy</a></li>
 <li><a href="kontakt.html">Kontakt</a></li>
 </menu>
 
-<p id="odkazy"><a href="zvyrazneni-textu.html">&laquo;&laquo; Zvýraznění textu</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestník &laquo;</a> <a href="seznamy.html">Seznamy &raquo;&raquo;</a></p>
+<p id="odkazy"><a href="zvyrazneni-textu.html">&laquo;&laquo; ZvĂ˝raznÄ›nĂ­ textu</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestnĂ­k &laquo;</a> <a href="seznamy.html">Seznamy &raquo;&raquo;</a></p>
  
-<p id="paticka"><small>o web se stará Lukáš Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
+<p id="paticka"><small>o web se starĂˇ LukĂˇĹˇ Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
 
 
 

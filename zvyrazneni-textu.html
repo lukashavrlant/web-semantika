@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-  <title>Sémantika - Zvýraznění textu</title>
-  <meta name="description" content="Jakým způsobem nejlépe zvýraznit část textu, kdy použít značku strong a kdy značku b">
+  <meta charset="utf">
+  <title>SĂ©mantika - ZvĂ˝raznÄ›nĂ­ textu</title>
+  <meta name="description" content="JakĂ˝m zpĹŻsobem nejlĂ©pe zvĂ˝raznit ÄŤĂˇst textu, kdy pouĹľĂ­t znaÄŤku strong a kdy znaÄŤku b">
   <link rel="home" href="index.html/">
   <link rel="prev" href="zakladni-kostra-stranky.html">
   <link rel="next" href="uprava-textu.html">
@@ -11,36 +11,36 @@
   <link rel="stylesheet" href="styly.css">
   </head>
   <body>
-<h1><a href="index.html" id="nadpis">Sémantika <br> pravý význam html značek</a></h1>
+<h1><a href="index.html" id="nadpis">SĂ©mantika <br> pravĂ˝ vĂ˝znam html znaÄŤek</a></h1>
 
 
-<p id="drobky"><a href="index.html">Hlavní strana</a> &raquo; <a href="navody.html">Návody</a> &raquo; Zvýraznění textu</p>
+<p id="drobky"><a href="index.html">HlavnĂ­ strana</a> &raquo; <a href="navody.html">NĂˇvody</a> &raquo; ZvĂ˝raznÄ›nĂ­ textu</p>
 
-<h2 id="obsah">Zvýraznění textu</h2>
+<h2 id="obsah">ZvĂ˝raznÄ›nĂ­ textu</h2>
 
-<h3 id="rozdil">Rozdíl mezi <code>&lt;b&gt;</code> a <code>&lt;strong&gt;</code></h3>
-<p>Může se zdát, že mezi těmito značkami není vlastně žádný rozdíl. Snad všechny prohlížeče obsah těchto elementů vykreslí tučným písmem a přesto mezi nimi rozdíl je. Značka <code>&lt;b&gt;</code> totiž slouží k vymezení textu, který má být <b>tučný</b>, kdežto značka <code>&lt;strong&gt;</code> vymezuje <strong>důležitý</strong> či silně zvýrazněný text (nenechte se zmást, na tomto webu mám značku <code>&lt;strong&gt;</code> přestylovanou na zeleno, bez stylů se zobrazí stejně).</p>
-<p>Takže pokud budete chtít vyzdvihnout důležitost nějakého slova, použijete značku <code>&lt;strong&gt;</code>, ale pokud budete chtít udělat text tučný, ale přitom rovnocenný s ostatními texty, použijete na to kaskádové styly, které byly k tomuto účelu navrhnuty. V případě, kdy je vysloveně řečeno, že daný úsek <strong>musí</strong> být <em>tučný</em> (například je to ustálený standardní zápis - většinou se s tím setkáte třeba v matematice nebo ve fyzice), můžete použít značku <code>&lt;b&gt;</code>.</p>
-<p>Vše ještě ukáži na příkladu, to bývá obvykle nejlepší. Takže máme větu <em>&bdquo;Každý stý návštěvník má vstup zdarma&rdquo;</em>. Jelikož poslední dvě slova jsou více než důležitá, vložím je do značky <code>&lt;strong&gt;</code> a výstup tedy bude vypadat takto: <samp>&bdquo;Každý stý návštěvník má <strong>vstup zdarma</strong>&rdquo;</samp>. Nyní se podívejte na menu nahoře. Odkazy v něm jsou zobrazovány tučným písmem. Vzhledem k tomu, že jsem necítil potřebu zdůrazňovat odkazy v hlavním menu, ale pouze je udělat tučné, jelikož normální (netučné) vypadaly fakt strašně, použil jsem <abbr title="Cascading Style Sheets - Kaskádové styly">CSS</abbr> vlastnost <code>font-weight:bold;</code> namísto značky <code>&lt;strong&gt;</code> či <code>&lt;b&gt;</code>. Pokud se ale vektory obvykle zapisují tučným písmem, vypadal by správný zápis vektoru takto: <code><font class="text">Vektor</font> &lt;b&gt;<font class="text">v</font>&lt;/b&gt; <font class="text">vynásobíme třemi</font>.</code></p>
+<h3 id="rozdil">RozdĂ­l mezi <code>&lt;b&gt;</code> a <code>&lt;strong&gt;</code></h3>
+<p>MĹŻĹľe se zdĂˇt, Ĺľe mezi tÄ›mito znaÄŤkami nenĂ­ vlastnÄ› ĹľĂˇdnĂ˝ rozdĂ­l. Snad vĹˇechny prohlĂ­ĹľeÄŤe obsah tÄ›chto elementĹŻ vykreslĂ­ tuÄŤnĂ˝m pĂ­smem a pĹ™esto mezi nimi rozdĂ­l je. ZnaÄŤka <code>&lt;b&gt;</code> totiĹľ slouĹľĂ­ k vymezenĂ­ textu, kterĂ˝ mĂˇ bĂ˝t <b>tuÄŤnĂ˝</b>, kdeĹľto znaÄŤka <code>&lt;strong&gt;</code> vymezuje <strong>dĹŻleĹľitĂ˝</strong> ÄŤi silnÄ› zvĂ˝raznÄ›nĂ˝ text (nenechte se zmĂˇst, na tomto webu mĂˇm znaÄŤku <code>&lt;strong&gt;</code> pĹ™estylovanou na zeleno, bez stylĹŻ se zobrazĂ­ stejnÄ›).</p>
+<p>TakĹľe pokud budete chtĂ­t vyzdvihnout dĹŻleĹľitost nÄ›jakĂ©ho slova, pouĹľijete znaÄŤku <code>&lt;strong&gt;</code>, ale pokud budete chtĂ­t udÄ›lat text tuÄŤnĂ˝, ale pĹ™itom rovnocennĂ˝ s ostatnĂ­mi texty, pouĹľijete na to kaskĂˇdovĂ© styly, kterĂ© byly k tomuto ĂşÄŤelu navrhnuty. V pĹ™Ă­padÄ›, kdy je vyslovenÄ› Ĺ™eÄŤeno, Ĺľe danĂ˝ Ăşsek <strong>musĂ­</strong> bĂ˝t <em>tuÄŤnĂ˝</em> (napĹ™Ă­klad je to ustĂˇlenĂ˝ standardnĂ­ zĂˇpis - vÄ›tĹˇinou se s tĂ­m setkĂˇte tĹ™eba v matematice nebo ve fyzice), mĹŻĹľete pouĹľĂ­t znaÄŤku <code>&lt;b&gt;</code>.</p>
+<p>VĹˇe jeĹˇtÄ› ukĂˇĹľi na pĹ™Ă­kladu, to bĂ˝vĂˇ obvykle nejlepĹˇĂ­. TakĹľe mĂˇme vÄ›tu <em>&bdquo;KaĹľdĂ˝ stĂ˝ nĂˇvĹˇtÄ›vnĂ­k mĂˇ vstup zdarma&rdquo;</em>. JelikoĹľ poslednĂ­ dvÄ› slova jsou vĂ­ce neĹľ dĹŻleĹľitĂˇ, vloĹľĂ­m je do znaÄŤky <code>&lt;strong&gt;</code> a vĂ˝stup tedy bude vypadat takto: <samp>&bdquo;KaĹľdĂ˝ stĂ˝ nĂˇvĹˇtÄ›vnĂ­k mĂˇ <strong>vstup zdarma</strong>&rdquo;</samp>. NynĂ­ se podĂ­vejte na menu nahoĹ™e. Odkazy v nÄ›m jsou zobrazovĂˇny tuÄŤnĂ˝m pĂ­smem. Vzhledem k tomu, Ĺľe jsem necĂ­til potĹ™ebu zdĹŻrazĹovat odkazy v hlavnĂ­m menu, ale pouze je udÄ›lat tuÄŤnĂ©, jelikoĹľ normĂˇlnĂ­ (netuÄŤnĂ©) vypadaly fakt straĹˇnÄ›, pouĹľil jsem <abbr title="Cascading Style Sheets - KaskĂˇdovĂ© styly">CSS</abbr> vlastnost <code>font-weight:bold;</code> namĂ­sto znaÄŤky <code>&lt;strong&gt;</code> ÄŤi <code>&lt;b&gt;</code>. Pokud se ale vektory obvykle zapisujĂ­ tuÄŤnĂ˝m pĂ­smem, vypadal by sprĂˇvnĂ˝ zĂˇpis vektoru takto: <code><font class="text">Vektor</font> &lt;b&gt;<font class="text">v</font>&lt;/b&gt; <font class="text">vynĂˇsobĂ­me tĹ™emi</font>.</code></p>
 
-<h3 id="dalsi">Další možností zvýraznění</h3>
-<p>Kromě značky <code>&lt;strong&gt;</code> existuje ještě element <code>&lt;em&gt;</code>, který slouží ke stejnému účelu. Rozdíl mezi značkou <code>&lt;strong&gt;</code> a <code>&lt;em&gt;</code> je ten, že <code>&lt;strong&gt;</code> je důležitější, dává na slovo větší důraz. Žádný jiný sémantický rozdíl mezi nimi není. V prohlížeči se pak <code>&lt;em&gt;</code> obvykle vykreslí kurzívou. Rozdíl mezi <code>&lt;em&gt;</code> a <code>&lt;i&gt;</code> je v podstatě stejný jako rozdíl, který jsem vysvětlil v předchozí kapitole. Značka <code>&lt;i&gt;</code> nemá sémantický význam. Pouze vykreslí obsah kurzívou, nic víc neurčuje.</p>
-<p>Pamatujte, že i tyto elementy můžete stylovat a tak pokud chcete například nějaký text zdůraznit změnou barvy, není to vůbec žádný problém. Ve stylech stačí použít přibližně takovýto předpis: <code>strong{color:#f00}</code>. Všechny důležité texty nyní budou zobrazeny červenou barvou. Samozřejmě můžete opět použít třídy či identifikátory.</p>
+<h3 id="dalsi">DalĹˇĂ­ moĹľnostĂ­ zvĂ˝raznÄ›nĂ­</h3>
+<p>KromÄ› znaÄŤky <code>&lt;strong&gt;</code> existuje jeĹˇtÄ› element <code>&lt;em&gt;</code>, kterĂ˝ slouĹľĂ­ ke stejnĂ©mu ĂşÄŤelu. RozdĂ­l mezi znaÄŤkou <code>&lt;strong&gt;</code> a <code>&lt;em&gt;</code> je ten, Ĺľe <code>&lt;strong&gt;</code> je dĹŻleĹľitÄ›jĹˇĂ­, dĂˇvĂˇ na slovo vÄ›tĹˇĂ­ dĹŻraz. Ĺ˝ĂˇdnĂ˝ jinĂ˝ sĂ©mantickĂ˝ rozdĂ­l mezi nimi nenĂ­. V prohlĂ­ĹľeÄŤi se pak <code>&lt;em&gt;</code> obvykle vykreslĂ­ kurzĂ­vou. RozdĂ­l mezi <code>&lt;em&gt;</code> a <code>&lt;i&gt;</code> je v podstatÄ› stejnĂ˝ jako rozdĂ­l, kterĂ˝ jsem vysvÄ›tlil v pĹ™edchozĂ­ kapitole. ZnaÄŤka <code>&lt;i&gt;</code> nemĂˇ sĂ©mantickĂ˝ vĂ˝znam. Pouze vykreslĂ­ obsah kurzĂ­vou, nic vĂ­c neurÄŤuje.</p>
+<p>Pamatujte, Ĺľe i tyto elementy mĹŻĹľete stylovat a tak pokud chcete napĹ™Ă­klad nÄ›jakĂ˝ text zdĹŻraznit zmÄ›nou barvy, nenĂ­ to vĹŻbec ĹľĂˇdnĂ˝ problĂ©m. Ve stylech staÄŤĂ­ pouĹľĂ­t pĹ™ibliĹľnÄ› takovĂ˝to pĹ™edpis: <code>strong{color:#f00}</code>. VĹˇechny dĹŻleĹľitĂ© texty nynĂ­ budou zobrazeny ÄŤervenou barvou. SamozĹ™ejmÄ› mĹŻĹľete opÄ›t pouĹľĂ­t tĹ™Ă­dy ÄŤi identifikĂˇtory.</p>
 
-<h3 id="zeslabeni">Zeslabení důrazu</h3>
-<p>Toto je trochu zvláštnost, protože <abbr title="HyperText markup language - Hypertextový značkovací jazyk">HTML</abbr> má sice dvě značky na zesílení důrazu, ale ani jeden na <strong>zeslabení důrazu</strong>, což je trochu škoda. Jediná značka, která má podobný účel, je <code>&lt;small&gt;</code>. Jenže u ní je ten problém, že vlastně nemá sémantický význam, je to podobný problém jako třeba s <code>&lt;b&gt;</code>. Leč bohužel, jiná možnost prozatím neexistuje, takže pokud budete chtít zeslabit důraz nějaké části textu, použijte tento element. Já jej kupříkladu používám pro patičku. Není to sice zrovna sémantický vrchol, ale je to pořád lepší, než na méně důležitý text použít <code>&lt;span&gt;</code>, který potom pouze nějak nastylovat.</p>
+<h3 id="zeslabeni">ZeslabenĂ­ dĹŻrazu</h3>
+<p>Toto je trochu zvlĂˇĹˇtnost, protoĹľe <abbr title="HyperText markup language - HypertextovĂ˝ znaÄŤkovacĂ­ jazyk">HTML</abbr> mĂˇ sice dvÄ› znaÄŤky na zesĂ­lenĂ­ dĹŻrazu, ale ani jeden na <strong>zeslabenĂ­ dĹŻrazu</strong>, coĹľ je trochu Ĺˇkoda. JedinĂˇ znaÄŤka, kterĂˇ mĂˇ podobnĂ˝ ĂşÄŤel, je <code>&lt;small&gt;</code>. JenĹľe u nĂ­ je ten problĂ©m, Ĺľe vlastnÄ› nemĂˇ sĂ©mantickĂ˝ vĂ˝znam, je to podobnĂ˝ problĂ©m jako tĹ™eba s <code>&lt;b&gt;</code>. LeÄŤ bohuĹľel, jinĂˇ moĹľnost prozatĂ­m neexistuje, takĹľe pokud budete chtĂ­t zeslabit dĹŻraz nÄ›jakĂ© ÄŤĂˇsti textu, pouĹľijte tento element. JĂˇ jej kupĹ™Ă­kladu pouĹľĂ­vĂˇm pro patiÄŤku. NenĂ­ to sice zrovna sĂ©mantickĂ˝ vrchol, ale je to poĹ™Ăˇd lepĹˇĂ­, neĹľ na mĂ©nÄ› dĹŻleĹľitĂ˝ text pouĹľĂ­t <code>&lt;span&gt;</code>, kterĂ˝ potom pouze nÄ›jak nastylovat.</p>
 
 <menu id="hlavni-menu">
-<li><a href="index.html">Hlavní strana</a></li>
-<li><a href="navody.html">Návody</a></li>
+<li><a href="index.html">HlavnĂ­ strana</a></li>
+<li><a href="navody.html">NĂˇvody</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="odkazy-zdroje.html">Odkazy</a></li>
 <li><a href="kontakt.html">Kontakt</a></li>
 </menu> 
 
-<p id="odkazy"><a href="zakladni-kostra-stranky.html">&laquo;&laquo; Základní kostra stránky</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestník &laquo;</a> <a href="uprava-textu.html">Úprava textu &raquo;&raquo;</a></p>
+<p id="odkazy"><a href="zakladni-kostra-stranky.html">&laquo;&laquo; ZĂˇkladnĂ­ kostra strĂˇnky</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestnĂ­k &laquo;</a> <a href="uprava-textu.html">Ăšprava textu &raquo;&raquo;</a></p>
  
-<p id="paticka"><small>o web se stará Lukáš Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
+<p id="paticka"><small>o web se starĂˇ LukĂˇĹˇ Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
 
 
 

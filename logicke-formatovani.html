@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-  <title>Sémantika - Logické formátování</title>
-  <meta name="description" content="Význam značek pro definici, adresu nebo horní a dolní indexy">
+  <meta charset="utf">
+  <title>SĂ©mantika - LogickĂ© formĂˇtovĂˇnĂ­</title>
+  <meta name="description" content="VĂ˝znam znaÄŤek pro definici, adresu nebo hornĂ­ a dolnĂ­ indexy">
   <link rel="home" href="index.html/">
   <link rel="prev" href="zdrojove-kody.html">
   <link rel="next" href="tabulky.html">
@@ -11,48 +11,48 @@
   <link rel="stylesheet" href="styly.css">
   </head>
   <body>
-<h1><a href="index.html" id="nadpis">Sémantika <br> pravý význam html značek</a></h1>
+<h1><a href="index.html" id="nadpis">SĂ©mantika <br> pravĂ˝ vĂ˝znam html znaÄŤek</a></h1>
 
 
-<p id="drobky"><a href="index.html">Hlavní strana</a> &raquo; <a href="navody.html">Návody</a> &raquo; Logické formátování</p>
+<p id="drobky"><a href="index.html">HlavnĂ­ strana</a> &raquo; <a href="navody.html">NĂˇvody</a> &raquo; LogickĂ© formĂˇtovĂˇnĂ­</p>
 
-<h2 id="obsah">Logické formátování</h2>
-<h3 id="dfn">Značka <code>&lt;dfn&gt;</code></h3>
-<p>Tato značka slouží ke zvýraznění nějakého pojmu, který se v textu vyskytl poprvé a který budeme v následujícím textu popisovat. Nemá smysl vyznačit touto značkou termín, který ponecháme bez vysvětlení. Přirovnal bych to k odkazu bez cíle. Příklad:</p>
+<h2 id="obsah">LogickĂ© formĂˇtovĂˇnĂ­</h2>
+<h3 id="dfn">ZnaÄŤka <code>&lt;dfn&gt;</code></h3>
+<p>Tato znaÄŤka slouĹľĂ­ ke zvĂ˝raznÄ›nĂ­ nÄ›jakĂ©ho pojmu, kterĂ˝ se v textu vyskytl poprvĂ© a kterĂ˝ budeme v nĂˇsledujĂ­cĂ­m textu popisovat. NemĂˇ smysl vyznaÄŤit touto znaÄŤkou termĂ­n, kterĂ˝ ponechĂˇme bez vysvÄ›tlenĂ­. PĹ™irovnal bych to k odkazu bez cĂ­le. PĹ™Ă­klad:</p>
 <pre><code>&lt;p&gt;
-  &lt;dfn&gt;<font class="text">Kaskádové styly</font>&lt;/dfn&gt; <font class="text">jsou kolekce metod, sloužící pro grafickou úpravu stránek.</font>
+  &lt;dfn&gt;<font class="text">KaskĂˇdovĂ© styly</font>&lt;/dfn&gt; <font class="text">jsou kolekce metod, slouĹľĂ­cĂ­ pro grafickou Ăşpravu strĂˇnek.</font>
 &lt;/p&gt;
 </code></pre>
  
 
-<h3 id="address">Značka <code>&lt;address&gt;</code></h3>
-<p>Tato značka, jak už její název ostatně napovídá, slouží k označování adres, čili kontaktů. Můžete do ní uzavřít prakticky všechno, co má co dočinění s kontaktem na vás (či na někoho jiného, pochopitelně). Určitě ale nevkládejte do této značky každý email, který máte na webu, <code>&lt;address&gt;</code> je blokový element, měl by tedy označovat spíše celistvý blok kontaktů, než jediný email v odstavci. Opět příklad:</p>
+<h3 id="address">ZnaÄŤka <code>&lt;address&gt;</code></h3>
+<p>Tato znaÄŤka, jak uĹľ jejĂ­ nĂˇzev ostatnÄ› napovĂ­dĂˇ, slouĹľĂ­ k oznaÄŤovĂˇnĂ­ adres, ÄŤili kontaktĹŻ. MĹŻĹľete do nĂ­ uzavĹ™Ă­t prakticky vĹˇechno, co mĂˇ co doÄŤinÄ›nĂ­ s kontaktem na vĂˇs (ÄŤi na nÄ›koho jinĂ©ho, pochopitelnÄ›). UrÄŤitÄ› ale nevklĂˇdejte do tĂ©to znaÄŤky kaĹľdĂ˝ email, kterĂ˝ mĂˇte na webu, <code>&lt;address&gt;</code> je blokovĂ˝ element, mÄ›l by tedy oznaÄŤovat spĂ­Ĺˇe celistvĂ˝ blok kontaktĹŻ, neĹľ jedinĂ˝ email v odstavci. OpÄ›t pĹ™Ă­klad:</p>
 <pre><code>&lt;address&gt;
   <font class="text">email na autora: nejaky@email.neco</font>
 &lt;/address&gt;
 </code></pre>
 
-<h3 id="del">Značky <code>&lt;del&gt;</code> a <code>&lt;ins&gt;</code></h3>
-<p>Opět jedny z častěji používaných značek. První značka, <code>&lt;del&gt;</code>, se uplatňuje především na weblozích a různých informačních serverech. Proč? Vyznačuje totiž text, který původně byl součástí nějakého článku, ale ukázal se býti nevhodný či nesprávný a tak namísto aby ho autor vymazal, vložil tento úsek textu do této značky. Má to tu výhodu, že uživatel vidí původní text, ale ví, že již neplatí (je přeškrtnutý), takže mu neunikají souvislosti. Druhá značka, <code>&lt;ins&gt;</code>, potom vyznačuje právě přidaný text, který opravuje ten předchozí, nesprávný. Příklad:</p> 
+<h3 id="del">ZnaÄŤky <code>&lt;del&gt;</code> a <code>&lt;ins&gt;</code></h3>
+<p>OpÄ›t jedny z ÄŤastÄ›ji pouĹľĂ­vanĂ˝ch znaÄŤek. PrvnĂ­ znaÄŤka, <code>&lt;del&gt;</code>, se uplatĹuje pĹ™edevĹˇĂ­m na weblozĂ­ch a rĹŻznĂ˝ch informaÄŤnĂ­ch serverech. ProÄŤ? VyznaÄŤuje totiĹľ text, kterĂ˝ pĹŻvodnÄ› byl souÄŤĂˇstĂ­ nÄ›jakĂ©ho ÄŤlĂˇnku, ale ukĂˇzal se bĂ˝ti nevhodnĂ˝ ÄŤi nesprĂˇvnĂ˝ a tak namĂ­sto aby ho autor vymazal, vloĹľil tento Ăşsek textu do tĂ©to znaÄŤky. MĂˇ to tu vĂ˝hodu, Ĺľe uĹľivatel vidĂ­ pĹŻvodnĂ­ text, ale vĂ­, Ĺľe jiĹľ neplatĂ­ (je pĹ™eĹˇkrtnutĂ˝), takĹľe mu neunikajĂ­ souvislosti. DruhĂˇ znaÄŤka, <code>&lt;ins&gt;</code>, potom vyznaÄŤuje prĂˇvÄ› pĹ™idanĂ˝ text, kterĂ˝ opravuje ten pĹ™edchozĂ­, nesprĂˇvnĂ˝. PĹ™Ă­klad:</p> 
 <pre><code>&lt;p&gt;
-  <font class="text">Dva krát sedm se rovná </font>&lt;del&gt;<font class="text">patnáct</font>&lt;/del&gt; &lt;ins&gt;<font class="text">čtrnáct</font>&lt;/ins&gt;.</font>
+  <font class="text">Dva krĂˇt sedm se rovnĂˇ </font>&lt;del&gt;<font class="text">patnĂˇct</font>&lt;/del&gt; &lt;ins&gt;<font class="text">ÄŤtrnĂˇct</font>&lt;/ins&gt;.</font>
 &lt;/p&gt;
 </code></pre>
 
 <h3 id="indexy">Indexy</h3>
-<p>Pokud občas píšete chemické nebo matematické vzorce, jistě jste již potřebovali zapsat horní či dolní index. K tomutu účelu byly zavedeny značky <code>&lt;sub&gt;</code> pro dolní index a <code>&lt;sup&gt;</code> pro horní index (dá se to jednoduše zapamatovat - sup obvykle létá nahoře ;-)). Nepoužívejte žádné nesmysly jako relativní pozicování a zmenšení písma, tyto dvě značky se o všechno postarají sami a navíc je to sémanticky správný zápis. Další nesporná výhoda je i v tom, že s vypnutými styly bude stále web použitelný, protože při použití pozicování by se rázem všechno ztratilo.</p>
+<p>Pokud obÄŤas pĂ­Ĺˇete chemickĂ© nebo matematickĂ© vzorce, jistÄ› jste jiĹľ potĹ™ebovali zapsat hornĂ­ ÄŤi dolnĂ­ index. K tomutu ĂşÄŤelu byly zavedeny znaÄŤky <code>&lt;sub&gt;</code> pro dolnĂ­ index a <code>&lt;sup&gt;</code> pro hornĂ­ index (dĂˇ se to jednoduĹˇe zapamatovat - sup obvykle lĂ©tĂˇ nahoĹ™e ;-)). NepouĹľĂ­vejte ĹľĂˇdnĂ© nesmysly jako relativnĂ­ pozicovĂˇnĂ­ a zmenĹˇenĂ­ pĂ­sma, tyto dvÄ› znaÄŤky se o vĹˇechno postarajĂ­ sami a navĂ­c je to sĂ©manticky sprĂˇvnĂ˝ zĂˇpis. DalĹˇĂ­ nespornĂˇ vĂ˝hoda je i v tom, Ĺľe s vypnutĂ˝mi styly bude stĂˇle web pouĹľitelnĂ˝, protoĹľe pĹ™i pouĹľitĂ­ pozicovĂˇnĂ­ by se rĂˇzem vĹˇechno ztratilo.</p>
 
 <menu id="hlavni-menu">
-<li><a href="index.html">Hlavní strana</a></li>
-<li><a href="navody.html">Návody</a></li>
+<li><a href="index.html">HlavnĂ­ strana</a></li>
+<li><a href="navody.html">NĂˇvody</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="odkazy-zdroje.html">Odkazy</a></li>
 <li><a href="kontakt.html">Kontakt</a></li>
 </menu>
 
-<p id="odkazy"><a href="zdrojove-kody.html">&laquo;&laquo; Zdrojové kódy</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestník &laquo;</a> <a href="tabulky.html">Tabulky &raquo;&raquo;</a></p>
+<p id="odkazy"><a href="zdrojove-kody.html">&laquo;&laquo; ZdrojovĂ© kĂłdy</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestnĂ­k &laquo;</a> <a href="tabulky.html">Tabulky &raquo;&raquo;</a></p>
  
-<p id="paticka"><small>o web se stará Lukáš Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
+<p id="paticka"><small>o web se starĂˇ LukĂˇĹˇ Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
 
 
 

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
-  <title>Sémantika - Fekální styl</title>
-  <meta name="description" content="Několik zaručených způsobů, jak co nejlépe zprasit zdrojový kód">
+  <meta charset="utf">
+  <title>SĂ©mantika - FekĂˇlnĂ­ styl</title>
+  <meta name="description" content="NÄ›kolik zaruÄŤenĂ˝ch zpĹŻsobĹŻ, jak co nejlĂ©pe zprasit zdrojovĂ˝ kĂłd">
   <link rel="home" href="index.html/">
   <link rel="prev" href="nesemanticke-znacky.html">
   <link rel="next" href="desatero-semantickeho-webu.html">
@@ -11,33 +11,33 @@
   <link rel="stylesheet" href="styly.css">
   </head>
   <body>
-<h1><a href="index.html" id="nadpis">Sémantika <br> pravý význam html značek</a></h1>
+<h1><a href="index.html" id="nadpis">SĂ©mantika <br> pravĂ˝ vĂ˝znam html znaÄŤek</a></h1>
 
 
-<p id="drobky"><a href="index.html">Hlavní strana</a> &raquo; <a href="navody.html">Návody</a> &raquo; Fekální styl</p>
+<p id="drobky"><a href="index.html">HlavnĂ­ strana</a> &raquo; <a href="navody.html">NĂˇvody</a> &raquo; FekĂˇlnĂ­ styl</p>
 
-<h2 id="obsah">Fekální styl</h2>
-<p>...aneb jak by rozhodně zdrojový kód vypadat neměl...</p>
-<h3 id="tabulka">Tabulkový layout</h3>
-<p>Asi nejznámnější a nejčastější ukázka fekálního stylu v praxi. Naprostá většina exemplářů naštěstí pochází z dob, kdy ještě kaskádové styly nebyly v příliš velkém rozmachu, takže to autory víceméně omlouvá.  Novější weby se již obvykle tomuto stylu psaní vyhýbají, avšak pravidlo to také není. Proč jsem tabulkový layout označil za fekální styl? Už jenom používání tabulky na layout není zrovna dvakrát sémantické a pak celá stránka bývá obvykle prošpikována značkami jako <code>&lt;font&gt;</code> (s patřičnými atributy pochopitelně), místy se vyskytne třeba i <code>&lt;u&gt;</code>, nadpisy jsou tvořeny značkou <code>&lt;b&gt;</code> apod. V celé stránce se pak nedá vyznat a těžko se na ni v budoucnu aplikují styly. Pokud jenom můžete a máte k tomu prostředky a schopnosti, vyhněte se, prosím, tabulkovému layoutu.</p>
+<h2 id="obsah">FekĂˇlnĂ­ styl</h2>
+<p>...aneb jak by rozhodnÄ› zdrojovĂ˝ kĂłd vypadat nemÄ›l...</p>
+<h3 id="tabulka">TabulkovĂ˝ layout</h3>
+<p>Asi nejznĂˇmnÄ›jĹˇĂ­ a nejÄŤastÄ›jĹˇĂ­ ukĂˇzka fekĂˇlnĂ­ho stylu v praxi. NaprostĂˇ vÄ›tĹˇina exemplĂˇĹ™ĹŻ naĹˇtÄ›stĂ­ pochĂˇzĂ­ z dob, kdy jeĹˇtÄ› kaskĂˇdovĂ© styly nebyly v pĹ™Ă­liĹˇ velkĂ©m rozmachu, takĹľe to autory vĂ­cemĂ©nÄ› omlouvĂˇ.  NovÄ›jĹˇĂ­ weby se jiĹľ obvykle tomuto stylu psanĂ­ vyhĂ˝bajĂ­, avĹˇak pravidlo to takĂ© nenĂ­. ProÄŤ jsem tabulkovĂ˝ layout oznaÄŤil za fekĂˇlnĂ­ styl? UĹľ jenom pouĹľĂ­vĂˇnĂ­ tabulky na layout nenĂ­ zrovna dvakrĂˇt sĂ©mantickĂ© a pak celĂˇ strĂˇnka bĂ˝vĂˇ obvykle proĹˇpikovĂˇna znaÄŤkami jako <code>&lt;font&gt;</code> (s patĹ™iÄŤnĂ˝mi atributy pochopitelnÄ›), mĂ­sty se vyskytne tĹ™eba i <code>&lt;u&gt;</code>, nadpisy jsou tvoĹ™eny znaÄŤkou <code>&lt;b&gt;</code> apod. V celĂ© strĂˇnce se pak nedĂˇ vyznat a tÄ›Ĺľko se na ni v budoucnu aplikujĂ­ styly. Pokud jenom mĹŻĹľete a mĂˇte k tomu prostĹ™edky a schopnosti, vyhnÄ›te se, prosĂ­m, tabulkovĂ©mu layoutu.</p>
 
-<h3 id="div">Když je na stránce přeDIVováno</h3>
-<p>Tenhle styl psaní nemám rád snad ještě více, než ten předchozí. Představte si stránku, kde jsou v elementu <code>&lt;body&gt;</code> pouze značky <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;img&gt;</code> a možná nějaký ten formulář. Takhle nějak vypadá přeDIVovaná stránka. Tento web postrádá jakoukoliv sémantiku (předchozí příklad měl <em>alespoň špatnou</em> sémantiku), jakoukoliv strukturu, je to prostě jen hromada <strong>bezvýznamných oddílů</strong>. Doufám, že již i toto pojetí webdesignu je na pokraji úpadku. Kaskádové styly mají oddělit formu a obsah, nemají k sobě stáhnout obojí, na to je třeba pamatovat. Stránka má přímo hrát různými <abbr title="HyperText markup language - Hypertextový značkovací jazyk">HTML</abbr> značkami, od toho je tady máme. Představte si, že čtete nějakou knížku a na každém řádku se vyskytuje jedno a totéž slovo. Také by se vám to nelíbilo a na knihu byste se patrně vykašlali (prohlížeč má tu smůlu, že se vykašlat nemůže :-)).</p>
+<h3 id="div">KdyĹľ je na strĂˇnce pĹ™eDIVovĂˇno</h3>
+<p>Tenhle styl psanĂ­ nemĂˇm rĂˇd snad jeĹˇtÄ› vĂ­ce, neĹľ ten pĹ™edchozĂ­. PĹ™edstavte si strĂˇnku, kde jsou v elementu <code>&lt;body&gt;</code> pouze znaÄŤky <code>&lt;div&gt;</code>, <code>&lt;span&gt;</code>, <code>&lt;img&gt;</code> a moĹľnĂˇ nÄ›jakĂ˝ ten formulĂˇĹ™. Takhle nÄ›jak vypadĂˇ pĹ™eDIVovanĂˇ strĂˇnka. Tento web postrĂˇdĂˇ jakoukoliv sĂ©mantiku (pĹ™edchozĂ­ pĹ™Ă­klad mÄ›l <em>alespoĹ Ĺˇpatnou</em> sĂ©mantiku), jakoukoliv strukturu, je to prostÄ› jen hromada <strong>bezvĂ˝znamnĂ˝ch oddĂ­lĹŻ</strong>. DoufĂˇm, Ĺľe jiĹľ i toto pojetĂ­ webdesignu je na pokraji Ăşpadku. KaskĂˇdovĂ© styly majĂ­ oddÄ›lit formu a obsah, nemajĂ­ k sobÄ› stĂˇhnout obojĂ­, na to je tĹ™eba pamatovat. StrĂˇnka mĂˇ pĹ™Ă­mo hrĂˇt rĹŻznĂ˝mi <abbr title="HyperText markup language - HypertextovĂ˝ znaÄŤkovacĂ­ jazyk">HTML</abbr> znaÄŤkami, od toho je tady mĂˇme. PĹ™edstavte si, Ĺľe ÄŤtete nÄ›jakou knĂ­Ĺľku a na kaĹľdĂ©m Ĺ™Ăˇdku se vyskytuje jedno a totĂ©Ĺľ slovo. TakĂ© by se vĂˇm to nelĂ­bilo a na knihu byste se patrnÄ› vykaĹˇlali (prohlĂ­ĹľeÄŤ mĂˇ tu smĹŻlu, Ĺľe se vykaĹˇlat nemĹŻĹľe :-)).</p>
 
-<h3 id="zkresleni">Zkreslení významu značek</h3>
-<p>Toto je také poměrně častá chyba. Někteří webdesigneři (většinou neznalí kaskádových stylů) používají <abbr title="HyperText markup language - Hypertextový značkovací jazyk">HTML</abbr> značky <em>jak se jim zachce</em>, respektive <em>jak se jim to zrovna hodí</em>. Takže když potřebují odsadit odstavec, tak místo značky <code>&lt;p&gt;</code> použijí <code>&lt;blockquote&gt;</code>, které má nadefinované nějaké to základní odsazení od okraje. Další perla je třeba změna pozadí odstavce při najetí myší na odstavec. Někdo totiž udělá celý odstavec odkazem a nadefinuje běžnou pseudotřídu <code>a:hover</code>. To je ovšem špatně, protože odstavec ve skutečnosti odkazem není, tudíž se musí použít Javaskript (nebo počkat na lepší podporu Internet Exploreru). Nepřetvářejte si zavedené značky k obrazu svému, vždy existuje sémantičtější řešení buď přes Javaskript nebo kaskádové styly.</p>
+<h3 id="zkresleni">ZkreslenĂ­ vĂ˝znamu znaÄŤek</h3>
+<p>Toto je takĂ© pomÄ›rnÄ› ÄŤastĂˇ chyba. NÄ›kteĹ™Ă­ webdesigneĹ™i (vÄ›tĹˇinou neznalĂ­ kaskĂˇdovĂ˝ch stylĹŻ) pouĹľĂ­vajĂ­ <abbr title="HyperText markup language - HypertextovĂ˝ znaÄŤkovacĂ­ jazyk">HTML</abbr> znaÄŤky <em>jak se jim zachce</em>, respektive <em>jak se jim to zrovna hodĂ­</em>. TakĹľe kdyĹľ potĹ™ebujĂ­ odsadit odstavec, tak mĂ­sto znaÄŤky <code>&lt;p&gt;</code> pouĹľijĂ­ <code>&lt;blockquote&gt;</code>, kterĂ© mĂˇ nadefinovanĂ© nÄ›jakĂ© to zĂˇkladnĂ­ odsazenĂ­ od okraje. DalĹˇĂ­ perla je tĹ™eba zmÄ›na pozadĂ­ odstavce pĹ™i najetĂ­ myĹˇĂ­ na odstavec. NÄ›kdo totiĹľ udÄ›lĂˇ celĂ˝ odstavec odkazem a nadefinuje bÄ›Ĺľnou pseudotĹ™Ă­du <code>a:hover</code>. To je ovĹˇem ĹˇpatnÄ›, protoĹľe odstavec ve skuteÄŤnosti odkazem nenĂ­, tudĂ­Ĺľ se musĂ­ pouĹľĂ­t Javaskript (nebo poÄŤkat na lepĹˇĂ­ podporu Internet Exploreru). NepĹ™etvĂˇĹ™ejte si zavedenĂ© znaÄŤky k obrazu svĂ©mu, vĹľdy existuje sĂ©mantiÄŤtÄ›jĹˇĂ­ Ĺ™eĹˇenĂ­ buÄŹ pĹ™es Javaskript nebo kaskĂˇdovĂ© styly.</p>
 
 <menu id="hlavni-menu">
-<li><a href="index.html">Hlavní strana</a></li>
-<li><a href="navody.html">Návody</a></li>
+<li><a href="index.html">HlavnĂ­ strana</a></li>
+<li><a href="navody.html">NĂˇvody</a></li>
 <li><a href="download.html">Download</a></li>
 <li><a href="odkazy-zdroje.html">Odkazy</a></li>
 <li><a href="kontakt.html">Kontakt</a></li>
 </menu>
 
-<p id="odkazy"><a href="nesemanticke-znacky.html">&laquo;&laquo; Nesémantické značky</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestník &laquo;</a> <a href="desatero-semantickeho-webu.html">Desatero sémantického webu &raquo;&raquo;</a></p>
+<p id="odkazy"><a href="nesemanticke-znacky.html">&laquo;&laquo; NesĂ©mantickĂ© znaÄŤky</a> <a href="navody.html" id="rozcestnik">&raquo; rozcestnĂ­k &laquo;</a> <a href="desatero-semantickeho-webu.html">Desatero sĂ©mantickĂ©ho webu &raquo;&raquo;</a></p>
 
-<p id="paticka"><small>o web se stará Lukáš Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
+<p id="paticka"><small>o web se starĂˇ LukĂˇĹˇ Havrlant (<a href="kontakt.html">kontakt</a>)</small></p>
 
 
 
