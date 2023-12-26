@@ -1,7 +1,7 @@
 if (navigator.sendBeacon) {
     navigator.sendBeacon('https://www.matweb.cz/api.php', JSON.stringify({
         "type": "analytics",
-        "articleId": location.pathname.replace('/', '').replace(/\/$/, '') || 'index',
+        "articleId": location.pathname.replace('/', '').replace(/\/$/, '').replace('.html', '') || 'index',
         "referrer": getReferrer(),
         "fullUrl": location.href
     }));
