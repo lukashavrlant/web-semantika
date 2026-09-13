@@ -1,0 +1,8 @@
+# Web se přestěhoval na semantika.havrlant.cz.
+#
+# Doména semantika.name běží už jen jako přesměrování a nechá se doběhnout
+# do 17. 4. 2027. U .name se platí i za převod, a webu chodilo 14 zobrazení
+# za 30 dní, všechna přímá -- vlastní doména se nevyplatí.
+#
+# :splat přenáší celou cestu, vykřičník platí i tam, kde by existoval soubor.
+/*    https://semantika.havrlant.cz/:splat    301!
